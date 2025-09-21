@@ -1,0 +1,233 @@
+!DOCTYPE html>
+<!-- saved from url=(0077)https://github.com/alura-cursos/portfolio-de-projetos/blame/aula-05/style.css -->
+<html lang="en" data-color-mode="auto" data-light-theme="dark" data-dark-theme="dark" data-a11y-animated-images="system" data-a11y-link-underlines="true" data-js-focus-visible="" data-turbo-loaded=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.turbo-progress-bar {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #0076ff;
+  z-index: 2147483647;
+  transition:
+    width 300ms ease-out,
+    opacity 150ms 150ms ease-in;
+  transform: translate3d(0, 0, 0);
+}
+</style>
+    
+  
+  
+  
+  
+  
+  
+
+  
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/dark-89751e879f8b.css"><link data-color-theme="light" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light-c59dc71e3a4c.css"><link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_high_contrast-4bf0cb726930.css"><link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind-6060e905eb78.css"><link data-color-theme="light_colorblind_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind_high_contrast-04e818620b9c.css"><link data-color-theme="light_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_tritanopia-ae65df249e0f.css"><link data-color-theme="light_tritanopia_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_tritanopia_high_contrast-fdadc12a1ec2.css"><link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_high_contrast-67c7180a598a.css"><link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind-4277e18a7c75.css"><link data-color-theme="dark_colorblind_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind_high_contrast-2e33ed61bc8c.css"><link data-color-theme="dark_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_tritanopia-48d44d87614d.css"><link data-color-theme="dark_tritanopia_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_tritanopia_high_contrast-6adcb5080302.css"><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed-250cee4c1ea8.css"><link data-color-theme="dark_dimmed_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed_high_contrast-e3802beb8c06.css">
+
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/primer-primitives-225433424a87.css">
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/primer-b8b91660c29d.css">
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/global-86fb66cfa45a.css">
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/github-8152e1e2638f.css">
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/repository-197a21528ff0.css">
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/code-177d21388df8.css">
+
+  
+
+
+  <script type="application/json" id="client-env">{"locale":"en","featureFlags":["alternate_user_config_repo","api_insights_show_missing_data_banner","autocomplete_use_dom_input_range","billing_sku_level_budgets","client_version_header","codespaces_prebuild_region_target_update","contentful_lp_flex_features_actions","contentful_lp_flex_features_code_review","contentful_lp_flex_features_code_search","contentful_lp_flex_features_codespaces","contentful_lp_flex_features_discussions","contentful_lp_flex_features_issues","contentful_lp_footnotes","copilot_chat_attach_images","copilot_chat_attach_multiple_images","copilot_chat_attachments","copilot_chat_custom_instructions","copilot_chat_opening_thread_switch","copilot_chat_repo_custom_instructions_preview","copilot_chat_vision_in_claude","copilot_chat_wholearea_dd","copilot_custom_copilots_feature_preview","copilot_custom_copilots_org_owned","copilot_custom_copilots_redesign","copilot_custom_copilots_visibility","copilot_dotcom_chat_file_upload","copilot_duplicate_thread","copilot_free_to_paid_telem","copilot_header_button_to_immersive","copilot_immersive_draft_issue_metadata_location","copilot_immersive_draft_issue_template_picker","copilot_immersive_draft_issue_template_required","copilot_immersive_issue_preview","copilot_new_immersive_references_ui","copilot_no_floating_button","copilot_read_shared_conversation","copilot_share_active_subthread","copilot_share_forbidden_error","copilot_showcase_icebreakers","copilot_task_oriented_assistive_prompts","copilot_topics_as_references","copilot_ui_refs","direct_to_salesforce","dotcom_chat_client_side_skills","ghost_pilot_confidence_truncation_25","ghost_pilot_confidence_truncation_40","insert_before_patch","issues_react_blur_item_picker_on_close","issues_react_create_milestone","issues_react_include_bots_in_pickers","issues_react_prohibit_title_fallback","issues_react_remove_placeholders","lifecycle_label_name_updates","link_contact_sales_swp_marketo","marketing_pages_search_explore_provider","memex_mwl_filter_field_delimiter","memex_roadmap_drag_style","nonreporting_relay_graphql_status_codes","primer_react_css_modules_ga","primer_react_select_panel_with_modern_action_list","remove_child_patch","repository_suggester_elastic_search","sample_network_conn_type","send_app_type_header","site_msbuild_hide_integrations","site_msbuild_launch","site_msbuild_webgl_hero","swp_enterprise_contact_form","use_copilot_avatar","use_paginated_org_picker_cost_center_form","use_paginated_repo_picker_cost_center_form","viewscreen_sandbox"],"login":"Geovanna04p"}</script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/wp-runtime-5444b0a4f954.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_oddbird_popover-polyfill_dist_popover-fn_js-81211bd82278.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_stacktrace-parser_dist_s-1d3d52-4be8ffe9a34a.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/ui_packages_failbot_failbot_ts-3f3eb0fe798c.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/environment-1d165312d5cd.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_primer_behaviors_dist_esm_index_mjs-0dbb79f97f8f.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_selector-observer_dist_index_esm_js-f690fd9ae3d5.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_relative-time-element_dist_index_js-fd884d19bf73.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_text-expander-element_dist_index_js-b4ed7224d804.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_auto-complete-element_dist_index_js-node_modules_github_catalyst_-8e9f78-a90ac05d2469.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-d8c643-f5192902810f.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_markdown-toolbar-element_dist_index_js-ceef33f593fa.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_combobox-nav_dist-97536f-0a0158d4c78e.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_primer_view-co-63644b-8389d8c5493d.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/github-elements-2c6b561fd398.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/element-registry-759bd527e556.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_braintree_browser-detection_dist_browser-detection_js-node_modules_githu-bb80ec-72267f4e3ff9.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_lit-html_lit-html_js-be8cb88f481b.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_morphdom_dist_morphdom-esm_js-0c08218c7d5f.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_fzy_js_index_js-node_modules_github_paste-markdown_dist_index_js-6c00013a3dc4.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_turbo_dist_turbo_es2017-esm_js-a03ee12d659a.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-893f9f-b6294cf703b7.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_color-convert_index_js-e3180fe3bcb3.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_quote-selection_dist_index_js-node_modules_github_session-resume_-c1aa61-97c8ff49bc41.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/ui_packages_updatable-content_updatable-content_ts-f4e60782b52d.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/app_assets_modules_github_behaviors_task-list_ts-app_assets_modules_github_sso_ts-ui_packages-900dde-c84fbefd392e.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/app_assets_modules_github_sticky-scroll-into-view_ts-3e000c5d31a9.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/app_assets_modules_github_behaviors_ajax-error_ts-app_assets_modules_github_behaviors_include-d0d0a6-9dc4ed803189.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-ce8979e4f922.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/behaviors-b3ff01fc446e.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-ea8eaa-ae0dbe787ad8.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/notifications-global-7f3748c0d76b.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_virtualized-list_es_inde-5cfb7e-e6b0d3ff3d24.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-70450e-4b93df70b903.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/app_assets_modules_github_ref-selector_ts-351a8f8ec24b.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/codespaces-1395fc4c5646.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-3eebbd-0763620ad7bf.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_mini-throttle_dist_decorators_js-node_modules_delegated-events_di-e161aa-9d41fb1b6c9e.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_github_remote--3c9c82-b71ef90fbdc7.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/repositories-f58553097890.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_catalyst_lib_inde-dbbea9-4adcaf6c1c40.js.download"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/code-menu-7cd84ed05e00.js.download"></script>
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/primer-react.ad18e42c1b06f95e74e5.module.css">
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="./Blaming portfolio-de-projetos_style.css at aula-05 · alura-cursos_portfolio-de-projetos_files/notifications-subscriptions-menu.e5e6e593370c808590a5.module.css">
+
+
+  
+
+
+
+  
+  
+  
+  
+
+    
+  
+
+
+  
+
+
+    
+
+
+  
+  
+
+  
+  
+
+    
+
+
+
+  
+
+  
+
+
+
+
+    
+
+  
+
+    
+
+    
+
+      
+
+      
+
+    
+    
+    
+
+      
+  
+  
+
+
+      
+      
+
+
+      
+
+
+      
+      
+      
+
+        
+
+
+  <meta http-equiv="x-pjax-version" content="9334a43936e35fe8ea90579e22968a05431e269ce5937af66394b836608182dd" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-csp-version" content="352e51c42d5f5727a7c545752bf34d1f83f40219e7036c6959817149a51651bc" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-css-version" content="c296e654ea989d71f05d687cb74f389a531f17ce0b1cf5bfe0ee83c347e56289" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-js-version" content="c903932696737dc05c184b747458feb1ad9f938b8ca30e703c82e387c104b64a" data-turbo-tr
+
+  
+  
+  
+  
+
+    
+  
+
+
+  
+
+
+    
+
+
+  
+  
+
+  
+  
+
+    
+
+
+
+  
+
+  
+
+
+
+
+    
+
+  
+
+    
+
+    
+
+      
+
+      
+
+    
+    
+    
+
+      
+  
+  
+
+
+      
+      
+
+
+      
+
+
+      
+      
+      
+
+        
+
+
+  <meta http-equiv="x-pjax-version" content="9334a43936e35fe8ea90579e22968a05431e269ce5937af66394b836608182dd" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-csp-version" content="352e51c42d5f5727a7c545752bf34d1f83f40219e7036c6959817149a51651bc" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-css-version" content="c296e654ea989d71f05d687cb74f389a531f17ce0b1cf5bfe0ee83c347e56289" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-js-version" content="c903932696737dc05c184b747458feb1ad9f938b8ca30e703c82e387c104b64a" data-turbo-tr
